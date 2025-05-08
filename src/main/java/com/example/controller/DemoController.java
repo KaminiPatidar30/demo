@@ -10,4 +10,14 @@ public class DemoController {
     public String getHello() {
         return "Hello, World!";
     }
+
+    @GetMapping("/world")
+    public String getWord() {
+        return "Hello, World!";
+    }
+
+    @GetMapping("/hworld")
+    public String gethWord() {
+        return "Hello, World!";
+    }
 }
